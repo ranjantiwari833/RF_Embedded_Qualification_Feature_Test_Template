@@ -1,0 +1,7 @@
+# only create this file if common parameters and common variables are needed on multiple tests
+(if common parameter is needed for all FEATURE_PLATFORM suite tests)
+parameters_from_yaml:
+  parameter_name: value
+  parameter_name: value
+
+other general variables that are common for all

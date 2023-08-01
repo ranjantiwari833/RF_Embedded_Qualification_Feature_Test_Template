@@ -1,0 +1,6 @@
+# parameters
+parameters_from_yaml:
+  parameter_name: value
+  parameter_name: value
+
+all other variables needed in the specific test

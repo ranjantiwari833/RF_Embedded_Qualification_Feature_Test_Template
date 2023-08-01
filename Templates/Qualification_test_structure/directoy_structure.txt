@@ -1,0 +1,22 @@
+This gives a general information on the directory structure for the Qualification Tests.
+
+Qualification
+|__FEATURE
+|    |__shared
+|    |   |__FEATURE.resource (common resource for all test cases in the feature)
+|    |   |__FEATURE.yaml (feature specific variables, generally not needed)
+|    |   |__TC.resource (common test cases as keywords)
+|    |   |__TC.yaml (test specific variables)
+|    |
+|    |__FEATURE_TEST_SUITE.robot
+|    |__FEATURE_TEST_SUITE_Standalone.robot
+|
+|__FEATURE
+|    |__shared
+|    |   |__FEATURE.resource (resource for all test cases in the feature)
+|    |   |__FEATURE.yaml (feature specific variables, generally not needed)
+|    |   |__TC.resource (common test cases as keywords)
+|    |   |__TC.yaml (test specific variables)
+|    |
+|    |__FEATURE_SUITE.robot
+|    |__FEATURE_SUITE_Standalone.robot
